@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========== UNICONS ==========-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--========== BOXICONS ==========-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== SWIPER CSS ==========-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--========== MAIN CSS ==========-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Meow's Portfolio Website</title>
+</head>
+
+<body>
+    <!--========== SIDEBAR ==========-->
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav">
+          <div class="nav__logo">
+            <a href="index.html" class="nav-logo-text">MW</a>
+          </div>
+          <div class="nav__menu">
+            <div class="menu">
+              <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+            <li class="nav__item"><a href="#Services" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#About-me" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#Contact" class="nav__link">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+         <div class="btn share">
+            <i class='bx bx-share-alt'></i>
+         </div>
+        </nav> 
+       </aside>
+    <!--========== MAIN ==========-->
+    <main class="main">
+        <!--===== Home =====-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__social">
+                    <span class="home__social-follow">Follow me</span>
+                    <div class="home__social-links">
+                        <a href="https://github.com/e01dwn" target="Github" class="home__social link">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                        <a href="https://twitter.com/home" target="blank" class="home__social link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="https://instagram.com" target="blank" class="home__social link">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                    </div>
+                </div>
+
+                <img src="dunce.png" alt="meow's image" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__title">Purr, I am meow</h1>
+                    <h3 class="home__subtitle">I am your personal pet</h3>
+                    <p class="home__description">Meow, I have high level of experience in interacting with hoomans</p>
+                    <a href="#Services" class="button"><i class='bx bxs-cat' ></i>
+                    My services</a>
+                </div>
+                <div class="my__info">
+                    <div class="info__item">
+                        <i class='bx bx-envelope' ></i>
+                      <div>
+                          <h3 class="info title">Email</h3>
+                              <span class="info__subtitle">riishck@gmail.com</span>
+                      </div>
+                    </div>
+                    <div class="my__info">
+                        <div class="info__item">
+                            <i class='bx bxl-whatsapp'></i>
+                          <div>
+                              <h3 class="info title">Whatsapp</h3>
+                                  <span class="info__subtitle">+91 9886067383</span>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--===== Services =====-->
+        
+        <section class="services section" id="services">
+            <h2 data-heading="Services" class="section__title">What I offer</h2>
+            <div class="services_container container grid">
+                <div class="services__content">
+                    <div>
+                    <i class="uil uil-web-grid services__icon"></i>
+                      <h3 class="servoces__title">Web <br>Designer</h3>  
+                    </div>
+                  <span class="services__button">
+                      View more 
+                  </span>  
+                </div>
+            </div>
+        </section>        
+        <!--===== Contact =====-->
+        <form
+  action="https://formspree.io/f/xyyopvkz"
+  method="POST"
+>
+        <section class="contact section" id="contact">
+            <h2 data heading="Get in Touch" class="section__title">Contact me</h2>
+            <div class="contact__content">
+                <i class="uil uil-envelope-edit  contact__card-icon"></i>
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                  </label>
+                  <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                  </label>
+                  <!-- your other form fields go here -->
+                  <button type="submit">Send</button>
+            </div>
+        </form>
+        </section>
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <h1 class="footer__title">Meow</h1>
+                    <span class="footer__subtitle">Full-Time Pet</span>
+                </div>
+        
+            </div>
+        </footer>
+    </main>
+
+    <!--========== SCROLL UP ==========-->
+    
+
+    <!--========== MIXITUP FILTER ==========-->
+    <script src="mixitup.min.js"></script>
+
+    <!--========== SWIPER JS ==========-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="main.js"></script>
+</body>
+
+</html>
